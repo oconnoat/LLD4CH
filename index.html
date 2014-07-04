@@ -1,0 +1,85 @@
+<!doctype html>
+<!-- Based on impress.js Copyright 2011-2012 Bartek Szopka
+
+Released under the MIT and GPL (version 2 or later) Licenses.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title> </title>
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+
+    <link rel="stylesheet/css" type="text/css" href="css/impress-base.css" />
+
+    <link rel="stylesheet/css" type="text/css" href="css/style.css" />
+
+    <link rel="stylesheet/less" type="text/css" href="less/style.less"> 
+
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+<!-- 
+<div id="slide1" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1"></div>
+-->
+    <div id="title" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <h1>Towards Linking Linguistic Resources in the Humanities</h1>
+        <h2>Alexander O'Connor, <em>David Lewis</em>, <em>Felix Sasaki</em></h2>
+    </div>
+
+    <div id="vast" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+    <!-- cultural resources that are out there are vast, and there's incredible amounts of information being constructed. Much of the current work though has the challenge of needing to leverage general-trained content, or build its own resources to train --> 
+    </div>
+
+<div id="dissemination" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+    <!--in the Catalogue of DH activities, this manifests as a focus on dissemniation and publication, and of making the tacit and expert knowledge that already exists available. There are almost as many ways to think of markup as there are documents on the web: but they come down to: documenting the physical artefact, documenting the artefact as part of the collection, documenting the content, and documenting the language -->
+</div>
+
+    <!-- keep an overview slide -->
+    <div id="overview" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+    </div>
+
+</div>
+<!-- end of impress -->
+
+<!-- a bar at the top with a timer. You could put other text or info in here by adding more spans -->
+<div id="navbar"><p> <span id="timer">Click to Start Timer.</span></p></div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<!-- LESS CSS -->
+<script src="js/less.min.js"></script>
+<!-- Load the presentation tool -->
+<script src="js/impress.js"></script>
+<!-- Load the timer -->
+<script src="js/timer.js"></script>
+<!-- Initialisation -->
+<script>impress().init();</script>
+
+</body>
+</html>
