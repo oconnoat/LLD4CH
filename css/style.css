@@ -18,8 +18,31 @@
 
 
 /* Tag Markup */
+body{
+    min-height: 740px;
+
+    background: radial-gradient(rgb(180,180,200), rgb(190,190,240));
+}
+
 
 /* Impress-related markup */
+.slide {
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+
+    font-size: 30px;
+
+    background: rgba(255, 255, 255, .66);
+}
+
+.step{
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
 
 /* make the non-active steps transparent */
 .step:not(.active) { opacity: 0.33; }
@@ -36,4 +59,3 @@
    left: 0; 
    color: rgba(0,0,0,0.5);
 }
-

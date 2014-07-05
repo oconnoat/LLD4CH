@@ -42,7 +42,7 @@ Benefits
 
 * Applications
     * Shared evaluation tasks
-    * Development and improvement of nlp in
+    * Development and improvement of nlp
 
 * open issues:
  * no tei-rdf?
