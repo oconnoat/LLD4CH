@@ -78,6 +78,9 @@ li {
     font-family: Courier, monospace; 
     text-align: center;
 }
+#workflows em{
+    font-size: 18px;
+}
 #stats, #libimg, #workflowimg, #workflows, #vocabs, #vocabsimg {
     width: 400px;
     float: left;
