@@ -61,6 +61,11 @@ li {
    left: 0; 
    color: rgba(0,0,0,0.5);
 }
+#title p{
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+}
 
 #dissemination h2{
     position: relative;
