@@ -20,11 +20,13 @@
 /* Tag Markup */
 body{
     min-height: 740px;
-
+    font-family: 'Helvetica', sans-serif;
     background: radial-gradient(rgb(180,180,200), rgb(190,190,240));
 }
 
-
+li {
+    margin-bottom: 5px;
+}
 /* Impress-related markup */
 .slide {
     width: 900px;
@@ -52,10 +54,23 @@ body{
 
 /* specific divs */
 #navbar{
-   font-size: 8px;
+   font-size: 18px;
    position: fixed; 
    height: 12px; 
    top: 0; 
    left: 0; 
    color: rgba(0,0,0,0.5);
+}
+
+#dissemination h2{
+    position: relative;
+    left: 300px;
+}
+#Conclusion p{
+    font-family: Courier, monospace; 
+    text-align: center;
+}
+#stats, #libimg, #workflowimg, #workflows, #vocabs, #vocabsimg {
+    width: 400px;
+    float: left;
 }
