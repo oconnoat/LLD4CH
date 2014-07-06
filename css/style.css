@@ -66,6 +66,9 @@ li {
     position: relative;
     left: 300px;
 }
+#Conclusion {
+    padding-top: 200px;
+}
 #Conclusion p{
     font-family: Courier, monospace; 
     text-align: center;
