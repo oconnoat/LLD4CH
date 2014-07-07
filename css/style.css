@@ -50,7 +50,10 @@ li {
 .step:not(.active) { opacity: 0.33; }
 
 /* Per-slide Markup uses .impress-on-slideID */
-
+.impress-on-overview .step:hover{
+   border: 10px solid #000000; 
+   cursor: crosshair;
+}
 
 /* specific divs */
 #navbar{
@@ -61,6 +64,11 @@ li {
    left: 0; 
    color: rgba(0,0,0,0.5);
 }
+
+#overview {
+    display: none;
+}
+
 #title p{
     font-size: 12px;
     position: absolute;
