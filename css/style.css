@@ -71,6 +71,11 @@ li {
     position: relative;
     left: 300px;
 }
+
+#theSolution2 img{
+ float: right;
+}
+
 #Conclusion {
     padding-top: 200px;
 }
